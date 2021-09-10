@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;  
+}
+:root {
+  --light-pink: rgb(255, 221, 210);
+  --reddish-pink: rgb(226, 149, 120);
+  --white: rgb(237, 246, 249);
+  --light-blue: rgb(131, 197, 190);
+  --blue: rgb(0, 109, 119);
+  --light-font: 300;
+  --medium-font: 400;
+  --dark-font:700;
+}
+header {
+  background-color: var(--light-pink);
+  color: var(--blue);
+  padding: 1rem;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form-control {
+  width: 300px;
+  height: 25px;
+  border: 3px solid var(--blue);
+  border-radius: 4px;
+  color: rgb(16, 9, 49);
+  padding: 2px;
+  outline: none;;
+}
+main {
+  border: 2px solid var(--reddish-pink);
+  padding: 1rem;
+  margin: 30px;
+  border-radius:5px;
+}
+#items {
+  list-style: none;
+}
+#filter {
+  padding-left: 25px;
+  background-image: url('https://www.w3schools.com/css/searchicon.png');
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 5px 7px;
+}
+#item{
+    width:200px;
+}
+h1{
+    font-size:3rem;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 2rem;
+    font-weight: var(--medium-font);
+}
+.title{
+    font-size:1.7rem;
+}
+.btn{
+    box-sizing: border-box;
+    box-shadow: 0px 0px 0px transparent;
+    text-shadow: 0px 0px 0px transparent;
+    border-style: none;
+}
+.btn-danger{
+    border-radius: 100%;
+    background-color: rgb(0, 0, 0);
+    padding:0 5px 0 5px;
+    color: white;
+}
+.list-group-item{
+    display:grid;
+    grid-template-columns: 90% 5%;
+    padding: 10px;
+    border: 1px solid grey;
+    font-weight:var(--dark-font);
+}
+.list-group-item:nth-of-type(n+1){
+    border-top:0;
+}
+.list-group-item:nth-of-type(1){
+    border-top: 1px solid grey;
+}
+.list-group-item:nth-of-type(odd){
+    background-color: var(--light-blue);
+}
+.list-group-item:nth-of-type(even){
+    color: var(--blue);
+}
+.btn-dark{
+    background-color:var(--reddish-pink);
+    padding: 6px 12px;
+    margin-left:10px;
+    border-radius: 1rem;
+    font-weight: var(--dark-font);
+    color:rgb(73, 1, 10);
+}
+
+ 
+
+
