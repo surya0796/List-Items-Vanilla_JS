@@ -15,6 +15,7 @@
   --medium-font: 400;
   --dark-font:700;
 }
+
 header {
   background-color: var(--light-pink);
   color: var(--blue);
@@ -75,6 +76,7 @@ h2{
     background-color: rgb(0, 0, 0);
     padding:0 5px 0 5px;
     color: white;
+    width:30px;
 }
 .list-group-item{
     display:grid;
@@ -103,7 +105,10 @@ h2{
     font-weight: var(--dark-font);
     color:rgb(73, 1, 10);
 }
-
+.btn:active{
+    font-size: 12px;	
+    transform: translate(2px);
+}
  
 
 
